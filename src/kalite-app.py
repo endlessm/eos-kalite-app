@@ -27,7 +27,7 @@ from gi.repository import Gio
 from gi.repository import GLib
 
 # Where the KA Lite server will be listening.
-KALITE_SERVER_URI='http://localhost:8008'
+KALITE_SERVER_URI='http://org.learningequality.KALite.localhost:8008'
 
 # We use a custom URI that will be handled by chromium-browser-appmode
 # so that chromium-browser gets launched with --class and -app set.
