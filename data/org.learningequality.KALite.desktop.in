@@ -8,3 +8,4 @@ Exec=kalite-app
 Categories=Education;
 Terminal=false
 Icon=org.learningequality.KALite
+StartupWMClass=org.learningequality.KALite.localhost
