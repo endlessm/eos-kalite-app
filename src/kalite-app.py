@@ -31,9 +31,9 @@ KALITE_SERVER_URI='http://org.learningequality.KALite.localhost:8008'
 
 # We use a custom URI that will be handled by chromium-browser-appmode
 # so that chromium-browser gets launched with --class and -app set.
-DEFAULT_URI = 'webapp://org.learningequality.KALite@{}'.format(KALITE_SERVER_URI)
+DEFAULT_URI = 'webapp:org.learningequality.KALite@{}'.format(KALITE_SERVER_URI)
 
-# In case there's no handler for the webapp:// scheme available.
+# In case there's no handler for the webapp: scheme available.
 FALLBACK_URI = KALITE_SERVER_URI
 
 # Maximum time this script is allowed to be running, in seconds.
